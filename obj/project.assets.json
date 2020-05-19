@@ -8442,11 +8442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dev\\dev-dotnet-core\\MoviesAPI\\MoviesAPI.csproj",
+      "projectUniqueName": "E:\\dev\\dev-dotnet-core\\movies_webapi\\MoviesAPI.csproj",
       "projectName": "MoviesAPI",
-      "projectPath": "E:\\dev\\dev-dotnet-core\\MoviesAPI\\MoviesAPI.csproj",
+      "projectPath": "E:\\dev\\dev-dotnet-core\\movies_webapi\\MoviesAPI.csproj",
       "packagesPath": "C:\\Users\\bhawesh.verma\\.nuget\\packages\\",
-      "outputPath": "E:\\dev\\dev-dotnet-core\\MoviesAPI\\obj\\",
+      "outputPath": "E:\\dev\\dev-dotnet-core\\movies_webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bhawesh.verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
