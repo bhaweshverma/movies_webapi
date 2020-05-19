@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MoviesAPI.Models;
 using Microsoft.OpenApi.Models;
+using MoviesAPI.Middleware;
 
 namespace MoviesAPI
 {
@@ -46,6 +47,10 @@ namespace MoviesAPI
 
             app.UseRouting();
 
+            app.UseWhen(context => context.Request.Path.StartsWithSegments("/api/v1/movies"), app =>{
+                app.UseMiddleware<ValidateAuthorizationHeaderMiddleware>();
+            });
+            
             app.UseAuthorization();
 
             app.UseSwagger();
@@ -66,6 +71,8 @@ namespace MoviesAPI
                     pattern:"api/v1/{controller=Movies}/action={AllMovies}/{id?}"
                 );
             });
+
+            
 
         }
     }

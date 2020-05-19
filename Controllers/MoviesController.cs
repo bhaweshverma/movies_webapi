@@ -29,47 +29,27 @@ namespace MoviesAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> AllMovies([FromHeader] string Authorization){
-            
-            var isTokenValidated = await ValidateToken(Authorization);
+        public IActionResult AllMovies(){
 
-            if(isTokenValidated == "true")
-            {
-                return Ok(movies);
-            }
-            else
-            {
-                return Unauthorized();
-            }
+            return Ok(movies);
+        
         }
         
         [HttpGet("id/{id}")]
-        public async Task<IActionResult> MovieById(int id, [FromHeader] string Authorization){
-            
-            var isTokenValidated = await ValidateToken(Authorization);
-
-            if(isTokenValidated == "true")
-            {
-                IEnumerable<Movie> movieById = 
+        public IActionResult MovieById(int id){
+            FetchAllMovies();
+            IEnumerable<Movie> movieById = 
                 from m in movies
                 where m.MovieId.Equals(id)
                 select m;
 
                 return Ok(movieById);
-            }
-            else
-            {
-                return Unauthorized();
-            }   
         }
        
         [HttpPost]
-        public async Task<IActionResult> AddMovie([FromBody] Movie movie, [FromHeader] string Authorization){
-            var isTokenValidated = await ValidateToken(Authorization);
-
-            if(isTokenValidated == "true")
-            {
-                try
+        public IActionResult AddMovie([FromBody] Movie movie){
+            
+            try
                 {
                     using(StreamWriter sw = new StreamWriter(@"CSV Files\Movies.csv", true, new UTF8Encoding(true)))
                     using(CsvWriter csvw = new CsvWriter(sw, System.Globalization.CultureInfo.CurrentCulture))
@@ -90,11 +70,6 @@ namespace MoviesAPI.Controllers
                 {
                     return BadRequest(e.Message);
                 }
-            }
-            else
-            {
-                return Unauthorized();
-            }
         }
 
         private void FetchAllMovies()
@@ -116,21 +91,6 @@ namespace MoviesAPI.Controllers
                 throw new Exception(e.Message);
             }
         }
-        private async Task<string> ValidateToken(string Authorization)
-        {
-            try
-            {
-                AuthorizeAPI authorizeAPI = new AuthorizeAPI();
-                HttpClient client = authorizeAPI.InitializeClient();
-                client.DefaultRequestHeaders.Add("token", Authorization);
-                HttpResponseMessage response = await client.GetAsync("api/authorize/validatetoken");
-                var result = await response.Content.ReadAsStringAsync();
-                return result;
-            }
-            catch
-            {
-                return "false";
-            }
-        }
+        
     }
 }
