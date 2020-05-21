@@ -1,0 +1,209 @@
+2020-05-21 18:22:21.670 +05:30 [INF] Starting up application
+2020-05-21 18:23:43.893 +05:30 [INF] Starting up application
+2020-05-21 18:23:45.115 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 18:23:45.758 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 18:23:45.760 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 18:23:45.762 +05:30 [INF] Hosting environment: Development
+2020-05-21 18:23:45.764 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-21 18:24:11.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:24:11.474 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-21 18:24:47.004 +05:30 [ERR] EMPTY JWT token found for request /api/v1/movies from browser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 12:54:46 PM
+2020-05-21 18:24:49.809 +05:30 [INF] Request finished in 38349.9551ms 401 
+2020-05-21 18:29:11.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:32:52.401 +05:30 [INF] Starting up application
+2020-05-21 18:32:53.524 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 18:32:53.994 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 18:32:53.997 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 18:32:54.000 +05:30 [INF] Hosting environment: Development
+2020-05-21 18:32:54.003 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-21 18:33:09.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:33:09.671 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-21 18:33:39.156 +05:30 [ERR] EMPTY JWT token found for request /api/v1/movies from browser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 1:03:39 PM
+2020-05-21 18:33:42.502 +05:30 [INF] Request finished in 32857.9081ms 401 
+2020-05-21 18:38:56.412 +05:30 [INF] Starting up application
+2020-05-21 18:38:57.329 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 18:38:57.820 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 18:38:57.821 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 18:38:57.821 +05:30 [INF] Hosting environment: Development
+2020-05-21 18:38:57.821 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-21 18:39:21.010 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:39:21.023 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-21 18:39:53.060 +05:30 [INF] JWT token validated SUCCESSFULLY for request /api/v1/movies from browser PostmanRuntime/7.24.1 at 1:09:52 PM
+2020-05-21 18:40:10.262 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:40:10.302 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-21 18:41:21.883 +05:30 [INF] Starting up application
+2020-05-21 18:41:22.848 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 18:41:23.565 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 18:41:23.565 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 18:41:23.565 +05:30 [INF] Hosting environment: Development
+2020-05-21 18:41:23.566 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-21 18:41:25.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:41:25.191 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-21 18:41:34.506 +05:30 [INF] JWT token validated SUCCESSFULLY for request /api/v1/movies from browser PostmanRuntime/7.24.1 at 1:11:34 PM
+2020-05-21 18:41:34.533 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:41:34.584 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-21 18:42:34.677 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from PostmanRuntime/7.24.1 at 1:11:53 PM
+2020-05-21 18:42:45.132 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-21 18:42:55.466 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 80869.4641ms
+2020-05-21 18:42:55.470 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:42:55.471 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:42:55.472 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-21 18:42:56.047 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from PostmanRuntime/7.24.1 at 1:12:56 PM
+2020-05-21 18:42:56.048 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-21 18:42:56.131 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 659.281ms
+2020-05-21 18:42:56.140 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:42:56.400 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at MoviesAPI.Middleware.ValidateAuthorizationHeaderMiddleware.Invoke(HttpContext context) in E:\dev\dev-dotnet-core\movies_webapi\Middleware\ValidateAuthorizationHeaderMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-21 18:42:56.718 +05:30 [WRN] The response has already started, the error page middleware will not be executed.
+2020-05-21 18:42:56.725 +05:30 [ERR] Connection id "0HLVTH1RGMU8A", Request id "0HLVTH1RGMU8A:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at MoviesAPI.Middleware.ValidateAuthorizationHeaderMiddleware.Invoke(HttpContext context) in E:\dev\dev-dotnet-core\movies_webapi\Middleware\ValidateAuthorizationHeaderMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-05-21 18:42:56.744 +05:30 [INF] Request finished in 91572.1938ms 200 application/json; charset=utf-8
+2020-05-21 18:44:07.626 +05:30 [INF] Starting up application
+2020-05-21 18:44:08.473 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 18:44:08.894 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 18:44:08.895 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 18:44:08.895 +05:30 [INF] Hosting environment: Development
+2020-05-21 18:44:08.895 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-21 18:44:31.941 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-21 18:44:31.951 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-21 18:44:32.176 +05:30 [INF] JWT token validated SUCCESSFULLY for request /api/v1/movies from browser PostmanRuntime/7.24.1 at 1:14:32 PM
+2020-05-21 18:44:32.198 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:44:32.236 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-21 18:44:32.341 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from PostmanRuntime/7.24.1 at 1:14:32 PM
+2020-05-21 18:44:32.345 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-21 18:44:32.381 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 135.7366ms
+2020-05-21 18:44:32.383 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:44:32.384 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:44:32.385 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-21 18:44:32.388 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from PostmanRuntime/7.24.1 at 1:14:32 PM
+2020-05-21 18:44:32.389 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-21 18:44:32.393 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 7.2468ms
+2020-05-21 18:44:32.394 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-21 18:44:32.490 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at MoviesAPI.Middleware.ValidateAuthorizationHeaderMiddleware.Invoke(HttpContext context) in E:\dev\dev-dotnet-core\movies_webapi\Middleware\ValidateAuthorizationHeaderMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-21 18:44:32.552 +05:30 [WRN] The response has already started, the error page middleware will not be executed.
+2020-05-21 18:44:32.559 +05:30 [ERR] Connection id "0HLVTH3J64OP8", Request id "0HLVTH3J64OP8:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at MoviesAPI.Middleware.ValidateAuthorizationHeaderMiddleware.Invoke(HttpContext context) in E:\dev\dev-dotnet-core\movies_webapi\Middleware\ValidateAuthorizationHeaderMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-05-21 18:44:32.568 +05:30 [INF] Request finished in 630.5037ms 200 application/json; charset=utf-8
+2020-05-21 19:24:15.376 +05:30 [INF] Starting up application
+2020-05-21 19:24:16.675 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-21 19:24:17.147 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-21 19:24:17.147 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-21 19:24:17.147 +05:30 [INF] Hosting environment: Development
+2020-05-21 19:24:17.147 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi

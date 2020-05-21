@@ -264,3 +264,14 @@ E:\dev\dev-dotnet-core\movies_webapi\obj\Debug\netcoreapp3.1\staticwebassets\Mov
 E:\dev\dev-dotnet-core\movies_webapi\obj\Debug\netcoreapp3.1\MoviesAPI.dll
 E:\dev\dev-dotnet-core\movies_webapi\obj\Debug\netcoreapp3.1\MoviesAPI.pdb
 E:\dev\dev-dotnet-core\movies_webapi\obj\Debug\netcoreapp3.1\MoviesAPI.genruntimeconfig.cache
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+E:\dev\dev-dotnet-core\movies_webapi\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll

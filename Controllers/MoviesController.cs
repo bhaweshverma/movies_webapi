@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Net.Http.Headers;
 using MoviesAPI.Mappers;
 using MoviesAPI.Models;
 using MoviesAPI.Services.Helper;
@@ -22,21 +24,29 @@ namespace MoviesAPI.Controllers
     public class MoviesController : ControllerBase
     {
         private List<Movie> movies = new List<Movie>();
-
-        public MoviesController()
+        private ILogger<MoviesController> _logger;
+       
+        public MoviesController(ILogger<MoviesController> logger)
         {
+            _logger = logger;
             FetchAllMovies();
         }
 
         [HttpGet]
         public IActionResult AllMovies(){
+            var _agent = Request.Headers[HeaderNames.UserAgent].ToString();
+            var message = $"GET 'api/v1/Movies' endpoint hit from {_agent} at {DateTime.UtcNow.ToLongTimeString()}";
+            _logger.LogInformation(message);
 
             return Ok(movies);
-        
         }
         
         [HttpGet("id/{id}")]
         public IActionResult MovieById(int id){
+            var _agent = Request.Headers[HeaderNames.UserAgent].ToString();
+            var message = $"GET 'api/v1/Movies/id/{id}' endpoint hit from {_agent} at {DateTime.UtcNow.ToLongTimeString()}";
+            _logger.LogInformation(message);
+
             FetchAllMovies();
             IEnumerable<Movie> movieById = 
                 from m in movies
@@ -48,28 +58,33 @@ namespace MoviesAPI.Controllers
        
         [HttpPost]
         public IActionResult AddMovie([FromBody] Movie movie){
+            var _agent = Request.Headers[HeaderNames.UserAgent].ToString();
+            var message = $"POST 'api/v1/Movies' endpoint hit from {_agent} at {DateTime.UtcNow.ToLongTimeString()} ";
             
             try
+            {
+                using(StreamWriter sw = new StreamWriter(@"CSV Files\Movies.csv", true, new UTF8Encoding(true)))
+                using(CsvWriter csvw = new CsvWriter(sw, System.Globalization.CultureInfo.CurrentCulture))
                 {
-                    using(StreamWriter sw = new StreamWriter(@"CSV Files\Movies.csv", true, new UTF8Encoding(true)))
-                    using(CsvWriter csvw = new CsvWriter(sw, System.Globalization.CultureInfo.CurrentCulture))
-                    {
-                        //csvw.NextRecord();
-                        csvw.WriteRecord<Movie>(movie);
-                        csvw.NextRecord();
-                    }
-                    FetchAllMovies();
-                    IEnumerable<Movie> newMovie = 
-                            from m in movies
-                            where m.MovieId.Equals(movie.MovieId)
-                            select m; 
-                    
-                    return Ok(newMovie);
+                    //csvw.NextRecord();
+                    csvw.WriteRecord<Movie>(movie);
+                    csvw.NextRecord();
                 }
-                catch(Exception e)
-                {
-                    return BadRequest(e.Message);
-                }
+                FetchAllMovies();
+                IEnumerable<Movie> newMovie = 
+                        from m in movies
+                        where m.MovieId.Equals(movie.MovieId)
+                        select m; 
+                
+                 _logger.LogInformation(message + "SUCCESSFULLY executed.");
+
+                return Ok(newMovie);
+            }
+            catch(Exception e)
+            {
+                _logger.LogError(message + "FAILED with exception - "+ e.Message);
+                return BadRequest(e.Message);
+            }
         }
 
         private void FetchAllMovies()
