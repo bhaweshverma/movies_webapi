@@ -47,10 +47,12 @@ namespace MoviesAPI
 
             app.UseRouting();
 
-            app.UseWhen(context => context.Request.Path.StartsWithSegments("/api/v1/movies"), app =>{
+            // adding authentication middleware compenent in this pipeline for all requests
+            // to the movies controller
+            /*app.UseWhen(context => context.Request.Path.StartsWithSegments("/api/v1/movies"), app =>{
                 app.UseMiddleware<ValidateAuthorizationHeaderMiddleware>();
             });
-            
+            */
             app.UseAuthorization();
 
             app.UseSwagger();

@@ -207,3 +207,212 @@ System.InvalidOperationException: StatusCode cannot be set because the response 
 2020-05-21 19:24:17.147 +05:30 [INF] Application started. Press Ctrl+C to shut down.
 2020-05-21 19:24:17.147 +05:30 [INF] Hosting environment: Development
 2020-05-21 19:24:17.147 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 00:00:30.273 +05:30 [INF] Starting up application
+2020-05-26 00:00:31.409 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 00:00:31.934 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 00:00:31.934 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 00:00:31.934 +05:30 [INF] Hosting environment: Development
+2020-05-26 00:00:31.934 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 00:00:49.866 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-05-26 00:00:49.877 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 00:00:49.989 +05:30 [INF] Request finished in 125.1971ms 200 text/html;charset=utf-8
+2020-05-26 00:00:50.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-bundle.js  
+2020-05-26 00:00:50.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui.css  
+2020-05-26 00:00:50.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-standalone-preset.js  
+2020-05-26 00:00:50.154 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2020-05-26 00:00:50.155 +05:30 [INF] The file /swagger-ui.css was not modified
+2020-05-26 00:00:50.158 +05:30 [INF] Request finished in 36.9395ms 304 text/css
+2020-05-26 00:00:50.160 +05:30 [INF] Request finished in 39.671ms 304 application/javascript
+2020-05-26 00:00:50.175 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2020-05-26 00:00:50.176 +05:30 [INF] Request finished in 54.5758ms 304 application/javascript
+2020-05-26 00:00:51.249 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-05-26 00:00:51.452 +05:30 [INF] Request finished in 204.1677ms 200 application/json;charset=utf-8
+2020-05-26 00:01:03.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/Movies  
+2020-05-26 00:01:03.645 +05:30 [ERR] EMPTY JWT token found for request /api/v1/Movies from browser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 6:31:03 PM
+2020-05-26 00:01:03.646 +05:30 [INF] Request finished in 11.8196ms 401 
+2020-05-26 00:03:13.308 +05:30 [INF] Starting up application
+2020-05-26 00:03:14.181 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 00:03:14.585 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 00:03:14.586 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 00:03:14.587 +05:30 [INF] Hosting environment: Development
+2020-05-26 00:03:14.589 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 00:03:22.823 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-05-26 00:03:22.837 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 00:03:22.940 +05:30 [INF] Request finished in 119.3519ms 200 text/html;charset=utf-8
+2020-05-26 00:03:23.829 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-05-26 00:03:23.829 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/favicon-32x32.png  
+2020-05-26 00:03:23.943 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-05-26 00:03:23.944 +05:30 [INF] Request finished in 115.109ms 200 image/png
+2020-05-26 00:03:24.001 +05:30 [INF] Request finished in 171.9114ms 200 application/json;charset=utf-8
+2020-05-26 00:03:30.366 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/Movies  
+2020-05-26 00:03:30.379 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 00:03:30.412 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 00:03:30.617 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 6:33:30 PM
+2020-05-26 00:03:30.622 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 00:03:30.633 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 214.7209ms
+2020-05-26 00:03:30.635 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 00:03:30.635 +05:30 [INF] Request finished in 269.6496ms 200 application/json; charset=utf-8
+2020-05-26 00:03:52.063 +05:30 [INF] Starting up application
+2020-05-26 00:03:53.046 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 00:03:53.484 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 00:03:53.484 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 00:03:53.485 +05:30 [INF] Hosting environment: Development
+2020-05-26 00:03:53.485 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 00:15:07.204 +05:30 [INF] Starting up application
+2020-05-26 00:15:08.437 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 00:15:08.899 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 00:15:08.900 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 00:15:08.900 +05:30 [INF] Hosting environment: Development
+2020-05-26 00:15:08.900 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 00:15:30.292 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-05-26 00:15:30.308 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 00:15:30.431 +05:30 [INF] Request finished in 142.7891ms 200 text/html;charset=utf-8
+2020-05-26 00:15:31.059 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-05-26 00:15:31.381 +05:30 [INF] Request finished in 322.7502ms 200 application/json;charset=utf-8
+2020-05-26 11:06:53.186 +05:30 [INF] Starting up application
+2020-05-26 11:06:58.323 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 11:07:00.260 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 11:07:00.261 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 11:07:00.262 +05:30 [INF] Hosting environment: Development
+2020-05-26 11:07:00.262 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 11:07:14.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/users  
+2020-05-26 11:07:14.781 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 11:07:14.918 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.UsersController.AllUsers (MoviesAPI)'
+2020-05-26 11:07:15.069 +05:30 [INF] Route matched with {action = "AllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AllUsers(System.String) on controller MoviesAPI.Controllers.UsersController (MoviesAPI).
+2020-05-26 11:07:16.926 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 401
+2020-05-26 11:07:16.941 +05:30 [INF] Executed action MoviesAPI.Controllers.UsersController.AllUsers (MoviesAPI) in 1863.2206ms
+2020-05-26 11:07:16.943 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.UsersController.AllUsers (MoviesAPI)'
+2020-05-26 11:07:16.952 +05:30 [INF] Request finished in 2190.3233ms 401 
+2020-05-26 11:07:22.588 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-05-26 11:07:22.714 +05:30 [INF] Request finished in 126.0591ms 200 text/html;charset=utf-8
+2020-05-26 11:07:23.946 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-05-26 11:07:24.160 +05:30 [INF] Request finished in 214.1188ms 200 application/json;charset=utf-8
+2020-05-26 11:31:33.114 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 11:31:33.123 +05:30 [ERR] EMPTY JWT token found for request /api/v1/movies from browser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 6:01:33 AM
+2020-05-26 11:31:33.125 +05:30 [INF] Request finished in 13.7833ms 401 
+2020-05-26 11:31:33.348 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 11:31:33.351 +05:30 [ERR] EMPTY JWT token found for request /api/v1/movies from browser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 6:01:33 AM
+2020-05-26 11:31:33.352 +05:30 [INF] Request finished in 4.7662ms 401 
+2020-05-26 11:32:17.466 +05:30 [INF] Starting up application
+2020-05-26 11:32:18.407 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 11:32:18.854 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 11:32:18.854 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 11:32:18.854 +05:30 [INF] Hosting environment: Development
+2020-05-26 11:32:18.854 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 11:32:44.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 11:32:44.218 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 11:32:44.264 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 11:32:44.302 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 11:32:44.428 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 6:02:44 AM
+2020-05-26 11:32:44.437 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 11:32:44.488 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 173.8037ms
+2020-05-26 11:32:44.491 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 11:32:44.494 +05:30 [INF] Request finished in 289.8099ms 200 application/json; charset=utf-8
+2020-05-26 12:35:21.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 12:35:21.871 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 12:35:21.873 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:35:21.879 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:05:21 AM
+2020-05-26 12:35:21.880 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:35:21.881 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 7.775ms
+2020-05-26 12:35:21.881 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 12:35:21.882 +05:30 [INF] Request finished in 38.2142ms 200 application/json; charset=utf-8
+2020-05-26 12:36:21.487 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/1  
+2020-05-26 12:36:21.489 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:36:21.504 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:36:21.521 +05:30 [INF] GET 'api/v1/Movies/id/1' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:06:21 AM
+2020-05-26 12:36:21.524 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:36:21.529 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 24.7752ms
+2020-05-26 12:36:21.529 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:36:21.530 +05:30 [INF] Request finished in 43.1981ms 200 application/json; charset=utf-8
+2020-05-26 12:37:41.886 +05:30 [INF] Starting up application
+2020-05-26 12:37:43.157 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 12:37:43.618 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 12:37:43.619 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 12:37:43.619 +05:30 [INF] Hosting environment: Development
+2020-05-26 12:37:43.619 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 12:37:43.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/1  
+2020-05-26 12:37:43.739 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 12:37:43.802 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:37:43.842 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:37:43.995 +05:30 [INF] GET 'api/v1/Movies/id/1' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:07:43 AM
+2020-05-26 12:37:44.001 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:37:44.025 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 175.3167ms
+2020-05-26 12:37:44.031 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:37:44.038 +05:30 [INF] Request finished in 315.955ms 200 application/json; charset=utf-8
+2020-05-26 12:37:46.403 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/1  
+2020-05-26 12:37:46.405 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:37:46.406 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:37:46.413 +05:30 [INF] GET 'api/v1/Movies/id/1' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:07:46 AM
+2020-05-26 12:37:46.413 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:37:46.414 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 8.3845ms
+2020-05-26 12:37:46.415 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:37:46.415 +05:30 [INF] Request finished in 12.5192ms 200 application/json; charset=utf-8
+2020-05-26 12:37:50.162 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 12:37:50.168 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 12:37:50.177 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:37:50.185 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:07:50 AM
+2020-05-26 12:37:50.186 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:37:50.188 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 11.1213ms
+2020-05-26 12:37:50.189 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 12:37:50.189 +05:30 [INF] Request finished in 27.0334ms 200 application/json; charset=utf-8
+2020-05-26 12:38:01.158 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/2  
+2020-05-26 12:38:01.160 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:38:01.160 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 12:38:01.169 +05:30 [INF] GET 'api/v1/Movies/id/2' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 7:08:01 AM
+2020-05-26 12:38:01.169 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 12:38:01.170 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 9.4086ms
+2020-05-26 12:38:01.170 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 12:38:01.171 +05:30 [INF] Request finished in 13.4087ms 200 application/json; charset=utf-8
+2020-05-26 14:32:53.046 +05:30 [INF] Starting up application
+2020-05-26 14:32:54.133 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 14:32:54.530 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 14:32:54.530 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 14:32:54.530 +05:30 [INF] Hosting environment: Development
+2020-05-26 14:32:54.531 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-05-26 14:33:07.253 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 14:33:07.265 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-26 14:33:07.321 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 14:33:07.353 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 14:33:17.889 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies  
+2020-05-26 14:33:18.157 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 14:33:18.158 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 14:33:18.189 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 9:03:17 AM
+2020-05-26 14:33:18.277 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 9:03:18 AM
+2020-05-26 14:33:18.417 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 14:33:18.417 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 14:33:23.632 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 4825.8295ms
+2020-05-26 14:33:24.255 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 14:33:24.345 +05:30 [INF] Request finished in 6372.4763ms 200 application/json; charset=utf-8
+2020-05-26 14:33:25.667 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 18312.9123ms
+2020-05-26 14:33:25.669 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-05-26 14:33:25.672 +05:30 [INF] Request finished in 18422.8229ms 200 application/json; charset=utf-8
+2020-05-26 14:36:17.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/2  
+2020-05-26 14:36:17.858 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:36:17.877 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 14:36:36.516 +05:30 [INF] GET 'api/v1/Movies/id/2' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 9:06:36 AM
+2020-05-26 14:36:37.009 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 14:36:39.271 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 21393.418ms
+2020-05-26 14:36:39.273 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:36:39.274 +05:30 [INF] Request finished in 21417.5788ms 200 application/json; charset=utf-8
+2020-05-26 14:36:46.455 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/2  
+2020-05-26 14:36:46.462 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:36:46.463 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 14:36:46.470 +05:30 [INF] GET 'api/v1/Movies/id/2' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 9:06:46 AM
+2020-05-26 14:36:46.471 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 14:36:46.473 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 8.1235ms
+2020-05-26 14:36:46.478 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:36:46.478 +05:30 [INF] Request finished in 27.0539ms 200 application/json; charset=utf-8
+2020-05-26 14:36:48.129 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/movies/id/2  
+2020-05-26 14:36:48.131 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:36:48.132 +05:30 [INF] Route matched with {action = "MovieById", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MovieById(Int32) on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-05-26 14:36:58.985 +05:30 [INF] GET 'api/v1/Movies/id/2' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 at 9:06:58 AM
+2020-05-26 14:36:59.779 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+WhereListIterator`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-26 14:37:02.925 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI) in 14791.8844ms
+2020-05-26 14:37:02.926 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.MovieById (MoviesAPI)'
+2020-05-26 14:37:02.927 +05:30 [INF] Request finished in 14800.9166ms 200 application/json; charset=utf-8
+2020-05-26 14:44:39.916 +05:30 [INF] Starting up application
+2020-05-26 14:44:41.379 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 14:44:41.947 +05:30 [INF] Now listening on: http://localhost:5002
+2020-05-26 14:44:41.948 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-26 14:44:41.949 +05:30 [INF] Hosting environment: Development
+2020-05-26 14:44:41.950 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi

@@ -32,7 +32,7 @@ namespace MoviesAPI.Controllers
             FetchAllMovies();
         }
 
-        [HttpGet]
+        [HttpGet, Route("")]
         public IActionResult AllMovies(){
             var _agent = Request.Headers[HeaderNames.UserAgent].ToString();
             var message = $"GET 'api/v1/Movies' endpoint hit from {_agent} at {DateTime.UtcNow.ToLongTimeString()}";
@@ -47,7 +47,7 @@ namespace MoviesAPI.Controllers
             var message = $"GET 'api/v1/Movies/id/{id}' endpoint hit from {_agent} at {DateTime.UtcNow.ToLongTimeString()}";
             _logger.LogInformation(message);
 
-            FetchAllMovies();
+            //FetchAllMovies();
             IEnumerable<Movie> movieById = 
                 from m in movies
                 where m.MovieId.Equals(id)
