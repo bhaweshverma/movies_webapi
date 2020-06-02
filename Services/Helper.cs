@@ -6,7 +6,7 @@ namespace MoviesAPI.Services.Helper
 {
     public class AuthorizeAPI
     {
-        private string _authorizeApiBaseUri = "http://localhost:5003";
+        private string _authorizeApiBaseUri = "http://localhost:5001";
         public HttpClient InitializeClient()
         {
             HttpClient client = new HttpClient();

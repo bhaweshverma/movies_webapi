@@ -73,9 +73,6 @@ namespace MoviesAPI
                     pattern:"api/v1/{controller=Movies}/action={AllMovies}/{id?}"
                 );
             });
-
-            
-
         }
     }
 }

@@ -34,7 +34,7 @@ namespace MoviesAPI.Middleware
                 if(isTokenValidated == "true")
                 {
                     _logger.LogInformation($"JWT token validated SUCCESSFULLY for request {_requestPath} from browser {_agent} at {DateTime.UtcNow.ToLongTimeString()}");
-                    await _next(context);
+                    //await _next(context);
                 }
                 else
                 {
