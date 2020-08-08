@@ -31,7 +31,7 @@ namespace MoviesAPI
         {
             services.AddControllersWithViews();
             services.AddSwaggerGen(c => {
-                c.SwaggerDoc("V1", new OpenApiInfo { Title = "MoviesAPI", Version="V1"});
+                c.SwaggerDoc("V1", new OpenApiInfo { Title = "Movies API", Version="V1"});
             });
         }
 
@@ -58,7 +58,7 @@ namespace MoviesAPI
             app.UseSwagger();
             
             app.UseSwaggerUI( c => {
-                c.SwaggerEndpoint("./swagger/V1/swagger.json", "MoviesAPI");
+                c.SwaggerEndpoint("./swagger/V1/swagger.json", "MoviesAPIJSON");
                 c.RoutePrefix = string.Empty;
             });
             app.UseEndpoints(endpoints =>
