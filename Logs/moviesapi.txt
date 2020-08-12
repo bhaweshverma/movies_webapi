@@ -2590,3 +2590,33 @@ System.Net.Http.HttpRequestException: No connection could be made because the ta
 2020-08-10 13:45:46.973 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 37.0178ms
 2020-08-10 13:45:46.975 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
 2020-08-10 13:45:46.978 +05:30 [INF] Request finished in 48.8636ms 200 application/json; charset=utf-8
+2020-08-12 20:06:05.726 +05:30 [INF] Starting up application
+2020-08-12 20:06:09.547 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-12 20:06:11.052 +05:30 [INF] Now listening on: http://localhost:5002
+2020-08-12 20:06:11.053 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-12 20:06:11.053 +05:30 [INF] Hosting environment: Development
+2020-08-12 20:06:11.053 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-08-12 20:06:11.946 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/  
+2020-08-12 20:06:11.980 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-08-12 20:06:12.144 +05:30 [INF] Request finished in 206.2249ms 301 
+2020-08-12 20:06:12.242 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-08-12 20:06:12.370 +05:30 [INF] Request finished in 127.8535ms 200 text/html;charset=utf-8
+2020-08-12 20:06:12.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-standalone-preset.js  
+2020-08-12 20:06:12.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-bundle.js  
+2020-08-12 20:06:12.651 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui.css  
+2020-08-12 20:06:12.775 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-08-12 20:06:12.788 +05:30 [INF] Request finished in 136.354ms 200 text/css
+2020-08-12 20:06:12.960 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-08-12 20:06:12.961 +05:30 [INF] Request finished in 453.2135ms 200 application/javascript
+2020-08-12 20:06:13.175 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-08-12 20:06:13.177 +05:30 [INF] Request finished in 646.3345ms 200 application/javascript
+2020-08-12 20:06:14.618 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-08-12 20:06:15.166 +05:30 [INF] Request finished in 549.5891ms 200 application/json;charset=utf-8
+2020-08-12 20:06:25.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/v1/Movies  
+2020-08-12 20:06:25.704 +05:30 [INF] Executing endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-08-12 20:06:25.808 +05:30 [INF] Route matched with {action = "AllMovies", controller = "Movies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AllMovies() on controller MoviesAPI.Controllers.MoviesController (MoviesAPI).
+2020-08-12 20:06:26.239 +05:30 [INF] GET 'api/v1/Movies' endpoint hit from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 at 2:36:26 PM
+2020-08-12 20:06:26.253 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesAPI.Models.Movie, MoviesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-12 20:06:26.275 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 454.3197ms
+2020-08-12 20:06:26.282 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
+2020-08-12 20:06:26.282 +05:30 [INF] Request finished in 604.4013ms 200 application/json; charset=utf-8
