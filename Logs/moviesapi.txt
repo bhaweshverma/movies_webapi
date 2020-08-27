@@ -2620,3 +2620,39 @@ System.Net.Http.HttpRequestException: No connection could be made because the ta
 2020-08-12 20:06:26.275 +05:30 [INF] Executed action MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI) in 454.3197ms
 2020-08-12 20:06:26.282 +05:30 [INF] Executed endpoint 'MoviesAPI.Controllers.MoviesController.AllMovies (MoviesAPI)'
 2020-08-12 20:06:26.282 +05:30 [INF] Request finished in 604.4013ms 200 application/json; charset=utf-8
+2020-08-27 16:28:18.151 +05:30 [INF] Starting up application
+2020-08-27 16:28:23.608 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-27 16:28:27.419 +05:30 [INF] Now listening on: http://localhost:5002
+2020-08-27 16:28:27.421 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-27 16:28:27.421 +05:30 [INF] Hosting environment: Development
+2020-08-27 16:28:27.422 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-08-27 16:28:29.269 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/  
+2020-08-27 16:28:29.318 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-08-27 16:28:29.514 +05:30 [INF] Request finished in 242.3936ms 301 
+2020-08-27 16:28:30.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-08-27 16:28:30.406 +05:30 [INF] Request finished in 256.5387ms 200 text/html;charset=utf-8
+2020-08-27 16:28:30.729 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-standalone-preset.js  
+2020-08-27 16:28:30.729 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui-bundle.js  
+2020-08-27 16:28:30.779 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger-ui.css  
+2020-08-27 16:28:31.028 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-08-27 16:28:31.032 +05:30 [INF] Request finished in 252.3881ms 200 text/css
+2020-08-27 16:28:31.188 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-08-27 16:28:31.188 +05:30 [INF] Request finished in 459.3476ms 200 application/javascript
+2020-08-27 16:28:31.390 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-08-27 16:28:31.391 +05:30 [INF] Request finished in 661.6735ms 200 application/javascript
+2020-08-27 16:28:32.336 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-08-27 16:28:32.488 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/favicon-32x32.png  
+2020-08-27 16:28:32.509 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-08-27 16:28:32.510 +05:30 [INF] Request finished in 53.1018ms 200 image/png
+2020-08-27 16:28:32.703 +05:30 [INF] Request finished in 368.0704ms 200 application/json;charset=utf-8
+2020-08-27 16:44:32.949 +05:30 [INF] Starting up application
+2020-08-27 16:44:34.099 +05:30 [INF] User profile is available. Using 'C:\Users\bhawesh.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-27 16:44:34.646 +05:30 [INF] Now listening on: http://localhost:5002
+2020-08-27 16:44:34.647 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-27 16:44:34.648 +05:30 [INF] Hosting environment: Development
+2020-08-27 16:44:34.648 +05:30 [INF] Content root path: E:\dev\dev-dotnet-core\movies_webapi
+2020-08-27 16:44:35.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/index.html  
+2020-08-27 16:44:35.246 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-08-27 16:44:35.422 +05:30 [INF] Request finished in 200.8666ms 200 text/html;charset=utf-8
+2020-08-27 16:44:36.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/V1/swagger.json  
+2020-08-27 16:44:36.827 +05:30 [INF] Request finished in 211.2242ms 200 application/json;charset=utf-8
