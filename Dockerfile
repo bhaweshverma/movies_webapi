@@ -3,6 +3,7 @@
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-nanoserver-1809 AS base
 WORKDIR /app
+COPY . .
 EXPOSE 5002
 ENV ASPNETCORE_URLS=http://*:5002
 
@@ -19,5 +20,8 @@ RUN dotnet publish "MoviesAPI.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
+USER ContainerAdministrator
+RUN icacls "C:\app\CSV Files\Movies.csv" /t /grant Users:M
+USER ContainerUser
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MoviesAPI.dll"]
